@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta charset="UTF-8"/>
+<title>Shedd Aquarium | Mobile | Membership</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="stylesheet" href="css/mobi.css"/>
+<script type="text/javascript" src="js/mob.js"></script>
+<script type="text/javascript">
+if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+  var viewportmeta = document.querySelector('meta[name="viewport"]');
+  if (viewportmeta) {
+    viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0';
+    document.body.addEventListener('gesturestart', function() {
+      viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+    }, false);
+  }
+}
+</script>
+<script type="text/javascript">
+function recordOutboundLink(link, category, action, opt_label, opt_value) {
+_gat._getTrackerByName()._trackEvent(category, action, opt_label, opt_value);
+setTimeout('document.location = "' + link.href + '"', 100);
+}
+	
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2132201-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="header"><span id="homebtn"><a title="Shedd Home" href="index.html"></a></span></div>
+	<div id="page">
+	<h1>Membership</h1>
+	
+		<p><a href="http://action.sheddaquarium.org/becomemember" class="button" onClick="recordOutboundLink(this, 'Purchase', 'c_becomemember', 'Mobile Membership',1);return false;">Purchase <span>a Shedd membership today</span></a></p>
+		<div id="nav">
+			<ul>
+				<li id="benefits">
+					<p>Membership Benefits</p>
+				</li>
+				<ul id="includes">
+					<li>
+						<p>Entry to all exhibits <span>except 4-D Experience </span><span>(tickets can be purchased for $3 a ticket)</span></p>
+					</li>
+					<li>
+						<p>Tickets to daily aquatic shows <span>(based on availability)</span></p>
+					</li>
+					<li>
+						<p>Invitations to exclusive members events</p>
+					</li>
+					<li>
+						<p>Early notices and discounts on education classes and programs</p>
+					</li>
+					<li>
+						<p>Free subscription to members publications</p>
+					</li>
+					<li>
+						<p>Discounts in aquarium stores and restaurants</p>
+					</li>
+					<li>
+						<p>Reciprocal privledges at select aquariums and zoos around the country</p>
+					</li>
+				</ul>
+			<li>
+				<p>Membership Packages</p>
+			</li>
+			<ul id="member_packages">
+				<li><p>Individual <span>$80 &mdash; cardholder plus 1 guest</span></p></li>
+				<li><p>Family <span>$175 &mdash; 2 cardholders plus 4 children (18 and under)</span> </p></li>
+				<li><p>Family Plus <span>$190 &mdash; 2 cardholders plus 5 children + (18 and under)</span></p></li>
+				<li><p>Associate <span>$250 &mdash; 2 cardholders plus 2 adults plus 4 children (18 and under)</span></p></li>
+			</ul>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<p> <a href="http://www.sheddaquarium.org/">Full Website</a> | <a href="http://www.sheddaquarium.org/terms_of_use.html">Terms of Use and Privacy</a> <span><a href="http://www.sheddaquarium.org/donate">Donate to Shedd</a></span> </p>
+	</div>
+	<span id="shedd">&copy; John G Shedd Aquarium</span> </div>
+	<!-- Adbuyer.com Landing Pixel for sheddaquarium ,Shedd Mobile-->
+<script type="text/javascript">
+   var SWJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+   document.write(unescape("%3Cscript src='" + SWJsHost + "pixel.adbuyer.com/landing?id=10820' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<noscript>
+   <img height='1' width='1' alt='' src='http://pixel.adbuyer.com/landing?id=10820&noscript=1'/>
+</noscript>
+</body>
+</html>

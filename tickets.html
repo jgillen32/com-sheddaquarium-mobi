@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta charset="UTF-8"/>
+<title>Shedd Aquarium | Mobile | Tickets</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="stylesheet" href="css/mobi.css"/>
+<script type="text/javascript" src="js/mob.js"></script>
+<script type="text/javascript">
+if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+  var viewportmeta = document.querySelector('meta[name="viewport"]');
+  if (viewportmeta) {
+    viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0';
+    document.body.addEventListener('gesturestart', function() {
+      viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+    }, false);
+  }
+}
+
+</script>
+<script type="text/javascript">
+
+function recordOutboundLink(link, category, action, opt_label, opt_value) {
+_gat._getTrackerByName()._trackEvent(category, action, opt_label, opt_value);
+setTimeout('document.location = "' + link.href + '"', 100);
+}
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2132201-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="header"><span id="homebtn"><a title="Shedd Home" href="index.html"></a></span></div>
+	<div id="page">
+		<h1>Tickets</h1>
+		<h2>Today's Express Pass</h2>
+		<p>Purchase your ticket now and skip the line with our express pass. See everything at Shedd including access to all exhibits, aquatic show and 4-D Experience.</p>
+		<p><a href="http://www.ticketmaster.com/Shedd-Aquarium-Total-Experience-Pass-tickets/artist/1254117" class="button" onClick="recordOutboundLink(this, 'Tickets', 'tm_TotalExperience', 'Now Ticket',1);return false;">Buy Tickets <span>and skip the line today</span></a></p>
+		<ul>
+			<li>$54.75 (adult)</li>
+			<li>$40.75 (child, age 3-11)</li>
+		</ul>
+		<h2>Multiple Chicago attraction ticket</h2>
+		<p>See everything at Shedd and visit four more Chicago's best attractions at a 50% discount with the <a href="http://citypass.com/city/chicago?mv_source=shedd" onClick="recordOutboundLink(this, 'Tickets', 'CityPass', 'CityPass_Ticket',1);return false;">Chicago CityPass</a>.</p>
+		<div id="nav">
+			<h2>Planning a trip to Shedd?</h2>
+			<p>Shedd has a range of ticket options from $8 - $35, choose from the available packages at Shedd's box office.</p>
+			<ul>
+				<li><a href="#tickets">Other Ticket Packages</a></li>
+				<ul id="tickets">
+					<li>
+						<p>Total Experience Pass <span>Access to all galleries, the Aquatic Show and 4-D Experience</span> <span>$34.95 (adult) </span><span>$25.95 (child, age 3-11)</span> <span>at Shedd's box office or </span> <a href="http://www.ticketmaster.com/Shedd-Aquarium-Total-Experience-Pass-tickets/artist/1254117" class="button" onClick="recordOutboundLink(this, 'Tickets', 'tm_TotalExperience', 'Total Experience',1);return false;">Buy in advance <span>and skip tomorrow's line</span></a></p>
+					</li>
+					<li>
+						<p>Shedd Pass Plus <span>Access to all galleries and 4-D Experience</span> <span>$32.95 (adult)</span> <span>$23.95 (child, age 3-11)</span> <span>* only at Shedd's box office</span></p>
+					</li>
+					<li>
+						<p>Shedd Pass <span>Access to all galleries</span> <span>$28.95 (adult)</span> <span>$19.95 (child, age 3-11</span> <span>at Shedd's box office or</span> <a href="http://www.ticketmaster.com/Shedd-Pass-tickets/artist/1336469" class="button" onClick="recordOutboundLink(this, 'Tickets', 'tm_SheddPass', 'Shedd Pass',1);return false;">Buy in advance <span>and skip tomorrow's line</span></a></p>
+					</li>
+					<li>
+						<p>General Admission <span>Access to Amazon Rising, Caribbean Reef and Waters of the World</span> <span>$8 (adult)</span> <span>$6 (child, age 3-11)</span> <span>* only at Shedd's box office</span></p>
+					</li>
+				</ul>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<p> <a href="http://www.sheddaquarium.org/">Full Website</a> | <a href="http://www.sheddaquarium.org/terms_of_use.html">Terms of Use and Privacy</a> <span><a href="http://www.sheddaquarium.org/donate">Donate to Shedd</a></span> </p>
+	</div>
+	<span id="shedd">&copy; John G Shedd Aquarium</span> </div>
+	<!-- Adbuyer.com Landing Pixel for sheddaquarium ,Shedd Mobile-->
+<script type="text/javascript">
+   var SWJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+   document.write(unescape("%3Cscript src='" + SWJsHost + "pixel.adbuyer.com/landing?id=10820' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<noscript>
+   <img height='1' width='1' alt='' src='http://pixel.adbuyer.com/landing?id=10820&noscript=1'/>
+</noscript>
+</body>
+</html>

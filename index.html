@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta charset="UTF-8"/>
+<title>Shedd Aquarium | Mobile | Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="stylesheet" href="css/mobi.css"/>
+<script type="text/javascript" src="js/mob.js"></script>
+<script type="text/javascript">
+if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+  var viewportmeta = document.querySelector('meta[name="viewport"]');
+  if (viewportmeta) {
+    viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0';
+    document.body.addEventListener('gesturestart', function() {
+      viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+    }, false);
+  }
+}
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2132201-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+<div id="header"><span id="homebtn"><a title="Shedd Home" href="index.html"></a></span></div>
+
+<div id="page">
+
+	<h1>Welcome to Shedd Aquarium's mobile site</h1>
+	<p id="address"><a href="directions.html">1200 South Lake Shore Drive <span>Chicago, IL 60605</span></a></p>
+
+	<div id="nav">
+		<ul>
+			<li><a href="hours.html">Hours and Daily Calendar</a></li>
+			<li><a href="directions.html">Directions</a></li>
+			<li><a href="tickets.html">Tickets</a></li>
+			<li><a href="experiences.html">Extraordinary Experiences</a></li>
+			<li><a href="membership.html">Membership</a></li>
+		</ul>
+	</div>
+</div>
+	<div id="footer">
+		<p> <a href="http://www.sheddaquarium.org/">Full Website</a> | <a href="http://www.sheddaquarium.org/terms_of_use.html">Terms of Use and Privacy</a> <span><a href="http://www.sheddaquarium.org/donate">Donate to Shedd</a></span> </p>
+	</div>
+	<span id="shedd">&copy; John G Shedd Aquarium</span>
+</div>
+
+<!-- Adbuyer.com Landing Pixel for sheddaquarium ,Shedd Mobile-->
+<script type="text/javascript">
+   var SWJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+   document.write(unescape("%3Cscript src='" + SWJsHost + "pixel.adbuyer.com/landing?id=10820' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<noscript>
+   <img height='1' width='1' alt='' src='http://pixel.adbuyer.com/landing?id=10820&noscript=1'/>
+</noscript>
+</body>
+</html>
